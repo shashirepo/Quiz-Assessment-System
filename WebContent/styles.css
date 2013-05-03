@@ -1,0 +1,108 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+#txt
+{
+font:Geneva, Arial, Helvetica, sans-serif;
+font-size:40px;
+color:#FF0000;  font-family: 'Engagement';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Engagement'), local('Engagement-Regular'), url(http://themes.googleusercontent.com/static/fonts/engagement/v2/IYnYh0uOiuydvYrbHKIjwRsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+
+
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    color: #0d1e5f;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #282b16;
+}
+
+
+#bg_top{
+    background: url(images/bg_top.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 32px;
+    width: 100%;
+}
+
+#header_bg{
+    width: 100%;
+    margin: 0 auto;
+    height: 234px;
+    background: url(images/header.jpg) no-repeat top;
+}
+
+#header{
+    width: 1014px;
+    margin: 0 auto;
+}
+
+#logo{
+    text-align: left;
+    height: 20px;
+    padding-top: 90px;
+    width: 375px;
+}
+
+#logo a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+#logo H2 a{
+    font-size: 11px;
+}
+
+#buttons{
+    height: 77px;
+    width: 639px;
+    float: right;
+}
+
+#buttons ul {
+    padding-left: 0px;
+}
+
+#buttons li {
+    display: inline;
+}
+
+#buttons a {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    float: left;
+    width: 19%;
+    height: 57px;
+    padding-top: 30px;
+
+}
+
+#buttons a:hover, .active {
+    height: 47px;
+    background: url(images/menu_h.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
